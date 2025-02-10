@@ -1,0 +1,20 @@
+.pokemonsTable {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+
+    &__notPokemons {
+        margin: 40% auto 0 auto;
+    }
+}
+
+.notfound {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    span {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,36 @@
+.pokemonCard {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+    &__avatar {
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__name {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    &__identifier,
+    &__caught {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    button:disabled {
+            background-color: rgb(221, 220, 220);
+            color: black;
+            border: none;
+            padding: 12px 10px;
+            cursor: default;
+        
+    }
+}

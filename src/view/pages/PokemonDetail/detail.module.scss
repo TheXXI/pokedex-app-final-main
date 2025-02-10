@@ -1,0 +1,32 @@
+.pokemon {
+    display: flex;
+    flex-direction: row;
+
+    &__avatar {
+        height: 400px;
+        width: 400px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+
+        &__name:first-letter {
+            text-transform: uppercase
+        }
+        &__identifier,
+        &__abilities,
+        &__caught {
+            margin-bottom: 5px;
+        }
+
+        &__notCaught {
+            width: 200px;
+        }
+    }
+}
